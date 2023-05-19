@@ -1,0 +1,220 @@
+.card[data-card-height="cover-full"],
+.card[data-card-height="cover"] {
+  height: 100vh;
+}
+
+.card[data-card-height="cover-card"] {
+  height: calc(100vh - 200px);
+}
+
+#form1a-select {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  font-size: 15px;
+  color: #fff !important;
+}
+
+.custom_play_btn {
+  border: 0;
+  width: 100%;
+  border-radius: 4px;
+  margin: 8px 7px 12px 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+.custom_play_btn p{
+  font-size: 10px;
+  border-radius: 2px;
+  padding: 0px 5px;
+  margin-right: 3px;
+  background: url(../src/images/btn_xs.png);
+  background-size: 100% 100%;
+  color: #1e2440 !important;
+  cursor: pointer;
+}
+.currency_icon{
+  display: flex;
+  align-items: center;
+}
+.currency_icon p{
+  font-size: 12px !important;
+  color: #b3cfff !important;
+  margin-left: 5px !important;
+}
+.currency_icon a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.balance_wrapper {
+  font-size: 13px;
+  font-family: inherit;
+  padding: 0 10px 15px;
+  height: 170px;
+}
+
+.home_balance {
+  overflow: hidden;
+}
+
+.links {
+  text-align: center;
+  margin: 0px;
+}
+
+.links a, .balance_btns a {
+  width: calc(50% - 5px);
+  text-shadow: none;
+  height: 37px;
+  margin: 10px 0px 5px;
+  max-width: 200px;
+  display: inline-block;
+  padding: 5px 15px; 
+  background-image: linear-gradient(to right, #15417e , #0075bc);
+  color: #fff;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #bfd4ff;
+  border-radius: 4px;
+}
+
+.register {
+  margin-left: 10px !important;
+}
+
+.pbalance {
+
+  overflow: hidden;
+}
+
+.balance_btns {
+  float: right;
+  width: 154px;
+  padding: 0 0 5px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.balance_btns .btns {
+ text-align: center;
+ width: 100%;
+ margin-top: 5px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.balance_btns .btns img{
+  margin-right: 5px;
+}
+
+.balance_btns .btns i {
+  margin: 4px -23px;
+  position: absolute;
+  font-size: 18px;
+}
+.page-title .logo{
+  height: 46px;
+  width: 100%;
+  margin: 5px 10px;
+}
+.btn_green{
+  color: white !important;
+  background-color: #0076bd;
+  border-radius: 4px !important;
+  border: 0;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.5);
+  font-size: 15px !important;
+  line-height: 20px !important;
+  padding: 8px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.register_btn{
+  width: 150px;
+  background: #15417e;
+  border-color: #15417e;
+  border-radius: 4px;
+}
+.badge_anima{
+  background: #f38120;
+  margin: 3px -40px;
+  position: absolute !important;
+  color: #fff !important;
+  line-height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 10px;
+  top: 5px;
+  right: 50%;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  opacity: 1 !important;
+}
+.main_pulse{
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+marquee{
+  background-image: url("../src/image/marquee.jpg");
+  font-size: 11px;
+  padding: 7px;
+  color: #A9A9A9;
+  letter-spacing: 0.5px;
+  height: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,1);
+  line-height: 1;
+  background-size: 100% 100%;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+#settings{
+  padding: 10px;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+
+}
+.setting_head{
+  color: #b3cfff !important;
+  border-bottom: 2px solid;
+  padding-bottom: 10px !important;
+}
+#settings a{
+  padding: 15px 0 !important;
+  border-bottom: 1px solid;
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+.color_yellow{
+  color: #D4A948 !important;
+}
+#deposit_cards{
+  padding: 15px;
+  overflow: hidden;
+}
+#deposit_cards .pay_menu{
+  background: transparent;
+  display: block;
+  padding: 7px;
+  border-radius: 4px;
+}
+#deposit_cards .pay_menu img{
+  width: 100% ;
+}
+.customized-icon{
+  display: flex;
+  align-items: center;
+}
+.customized-icon i{
+  font-size: 20px;
+  /* font-weight: 500; */
+  margin-right: 10px;
+  color: white;
+}
+
